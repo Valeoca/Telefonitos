@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(165, 169, 228);
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: rgb(165, 169, 228);
+    padding: 10px;
+    height: auto;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(165, 169, 228);
+    border: 5px rgb(165, 169, 228) solid;
+    border-radius: 15px;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Aca {
+    color: black;
+}
+
+.hola {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Centra los productos horizontalmente */
+    padding: 20px; /* Añade un espacio interno */
+}
+
+.Producto {
+    width: calc(33.33% - 20px); /* Calcula el ancho de cada producto */
+    border-radius: 10px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px; /* Espacio entre las filas de productos */
+    border: 1px black solid;
+    border-radius: 20px;
+    background: rgb(238, 236, 236);
+    text-align: center; /* Alinea el texto al centro */
+    padding: 15px; /* Añade espacio interno alrededor del texto */
+}
+
+.Producto img {
+    width: 200px; /* Ajusta el tamaño de la imagen para ocupar el contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+.Producto a {
+    color: black;
+    border: 1px rgb(62, 196, 0) solid;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(62, 196, 0);
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
